@@ -214,7 +214,7 @@ public class MyFirstProgram {
         System.out.printf("longToInt %d \n", b);
     }
     public static void longToFloat() {
-        int a = 2078;
+        int a = 20788;
         float b = a;
         System.out.printf("longToFloat %f \n", b);
     }
