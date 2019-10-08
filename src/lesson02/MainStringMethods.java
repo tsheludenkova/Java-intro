@@ -113,12 +113,12 @@ public class MainStringMethods {
     }
     public static void returnStringToLowerCase() {
         String var = string1.toLowerCase();
-        System.out.println("String in lower case: " + var);;
+        System.out.println("String in lower case: " + var);
     }
 
     public static void returnStringToUpperCase() {
         String var = string1.toUpperCase();
-        System.out.println("String in upper case: " + var);;
+        System.out.println("String in upper case: " + var);
     }
 
     public static void returnStringWithoutLeadingAndTrailingSpaces() {
