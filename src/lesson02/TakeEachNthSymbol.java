@@ -7,17 +7,21 @@ public class TakeEachNthSymbol {
 
 
     public static void main(String[] args) {
-        eachNth("Lorem Ipsum is simply", 2);
+
+        everyNth("Lorem Ipsum is simply", 2);
         System.out.print("\n");
-        eachNth("Lorem Ipsum is simply", 3);
+        everyNth("Lorem Ipsum is simply", 3);
         System.out.print("\n");
-        eachNth("Lorem Ipsum is simply", 5);
+        everyNth("Lorem Ipsum is simply", 5);
     }
 
-    public  static void eachNth(String string, int n) {
 
-        char[] var = string.toCharArray();
-        for (int i = 0; i< var.length; i = i+n)
-            System.out.print(var[i]);
+    public  static void everyNth(String string, int n) {
+        for (int i = 0; i < string.length(); i = i + n) {
+            char c = string.charAt(i);
+            System.out.print(c);
+        }
     }
+
+
 }
