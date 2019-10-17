@@ -16,7 +16,4 @@ public interface Cellable {
 
     String getPhoneName();
 
-
-
-
 }

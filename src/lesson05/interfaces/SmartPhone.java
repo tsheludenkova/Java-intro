@@ -17,6 +17,7 @@ public class SmartPhone implements Cellable {
 
     @Override
     public void callOnNumber(String number) {
+        System.out.print ( "Using fingerprint ");
 
     }
 

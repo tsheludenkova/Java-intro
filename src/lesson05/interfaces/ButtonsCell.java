@@ -18,13 +18,13 @@ public class ButtonsCell implements Cellable {
 
     @Override
     public void callOnNumber(String number) {
+        System.out.print ( "Using buttons ");
 
     }
 
     @Override
     public void saveNumber(String number) {
         System.out.println ( number +" in the Sim card");
-
 
     }
 
