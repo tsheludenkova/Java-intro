@@ -1,8 +1,13 @@
 package lesson05.interfaces_part2;
 
 public class OldTV extends BaseTVSet {
+    public OldTV(String model) {
+        super(model);
+    }
+
     public OldTV(String model, String color) {
         super(model, color);
+
     }
 
     @Override

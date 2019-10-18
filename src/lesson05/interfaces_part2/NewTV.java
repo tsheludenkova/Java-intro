@@ -5,6 +5,10 @@ public class NewTV extends BaseTVSet {
         super(model, color);
     }
 
+    public NewTV(String model) {
+        super(model);
+    }
+
     @Override
     public void turnOn() {
         System.out.println( getModel() + " using remote control");

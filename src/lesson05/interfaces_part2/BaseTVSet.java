@@ -10,6 +10,10 @@ public abstract class BaseTVSet implements TV {
         this.color = color;
     }
 
+    public BaseTVSet(String model) {
+        this(model, "UNDEFINED");
+    }
+
     @Override
     public String getColor() {
         return color;
