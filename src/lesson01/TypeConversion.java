@@ -1,6 +1,6 @@
 package lesson01;
 
-public class MyFirstProgram {
+public class TypeConversion {
     public static void main(String[] args) {
         System.out.println("----------from Byte conversion-----------------");
         byteToShort();
