@@ -1,4 +1,4 @@
-package lesson05.temperature_converter;
+package lesson05.interfaces.temperatureconverter;
 
 public class FahrenheitConverter implements Converter{
     @Override

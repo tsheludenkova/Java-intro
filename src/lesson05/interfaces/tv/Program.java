@@ -1,4 +1,4 @@
-package lesson05.interfaces_part2;
+package lesson05.interfaces.tv;
 
 public class Program {
     public static void main(String[] args) {

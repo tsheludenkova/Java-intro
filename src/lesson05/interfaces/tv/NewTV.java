@@ -1,4 +1,4 @@
-package lesson05.interfaces_part2;
+package lesson05.interfaces.tv;
 
 public class NewTV extends BaseTVSet {
     public NewTV(String model, String color) {

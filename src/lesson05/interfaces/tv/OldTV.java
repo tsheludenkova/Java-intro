@@ -1,4 +1,4 @@
-package lesson05.interfaces_part2;
+package lesson05.interfaces.tv;
 
 public class OldTV extends BaseTVSet {
     public OldTV(String model) {

@@ -1,4 +1,4 @@
-package lesson05.interfaces;
+package lesson05.interfaces.cell;
 
 public class Program {
     public static void main(String[] args) {

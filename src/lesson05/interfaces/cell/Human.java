@@ -1,4 +1,4 @@
-package lesson05.interfaces;
+package lesson05.interfaces.cell;
 
 public class Human {
     protected String name;
