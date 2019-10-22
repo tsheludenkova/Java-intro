@@ -1,6 +1,6 @@
-package lesson05.interfaces.cell;
+package generics;
 
-public interface Cellable extends generics.Cellable {
+public interface Cellable {
 
     void insertSimCard();
 

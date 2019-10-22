@@ -1,12 +1,10 @@
-package lesson05.interfaces.cell;
+package generics;
 
-import Examples.lesson08.Cell;
-
-public class Human  {
+public class Human <T extends Cellable>{
     protected String name;
     protected String surname;
     protected int age;
-    private Cellable cell;
+    private T cell;
 
     public Human(String name, String surname, int age) {
         this.name = name;
@@ -16,7 +14,7 @@ public class Human  {
 
 
 
-    public void takeCell(Cellable cell) {
+    public void takeCell(T cell) {
         this.cell = cell;
 
         System.out.println(name + " take a phone " + getPhoneModel() );

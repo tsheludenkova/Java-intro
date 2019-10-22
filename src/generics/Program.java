@@ -1,14 +1,15 @@
-package lesson05.interfaces.cell;
+package generics;
+
 
 public class Program {
     public static void main(String[] args) {
-        Human oldman = new Human("Ivan", "Ivanovich", 60);
-        Human youngman = new Human("Pavlo", "Pavlovich", 25);
+        Human <Cellable> oldman = new Human("Ivan", "Ivanovich", 60);
+        Human <SmartPhone> youngman = new Human("Pavlo", "Pavlovich", 25);
         SmartPhone iphone = new SmartPhone("Iphone 7");
         ButtonsCell nokiaPhone = new ButtonsCell(" Nokia 105");
 
         oldman.takeCell(nokiaPhone);
-        oldman.takeCell(iphone);
+      //  oldman.takeCall(iphone);
         oldman.insertSimCard();
         oldman.call("+380645465655");
         oldman.takeCall();
