@@ -1,6 +1,6 @@
 package generics.tv;
 
-public class TVUser <T extends TV >{
+public class TVUser <T extends BaseTVSet >{
     private String name;
     private String surname;
     private T tv;

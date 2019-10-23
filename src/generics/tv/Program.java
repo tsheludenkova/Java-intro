@@ -19,8 +19,6 @@ public class Program {
         user1.userTurnOffTV();
 
 
-
-
         user2.takeVT(samsung);
         user2.userTurnOnTV();
         user2.userSwitchChannel();
