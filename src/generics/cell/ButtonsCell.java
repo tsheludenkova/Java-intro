@@ -1,4 +1,4 @@
-package generics;
+package generics.cell;
 
 public class ButtonsCell implements Cellable {
 
