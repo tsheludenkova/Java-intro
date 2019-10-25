@@ -5,8 +5,12 @@ import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListCollection {
+    boolean sort;
 
-    public static void showCollection(ArrayList<String> cells) {
+    public static void showCollection(ArrayList<String> cells, boolean sort) {
+        if (sort == true) {
+            Collections.sort(cells);
+        }
         Iterator < String > iter = cells.iterator();
         while (iter.hasNext()) {
             System.out.println(iter.next());
@@ -27,9 +31,8 @@ public class ArrayListCollection {
         cells.remove("iPhone");
         System.out.println(cells.contains("iPhone"));
 
-        showCollection(cells);
-        Collections.sort(cells);
-        showCollection(cells);
+        showCollection(cells, false);
+        showCollection(cells, true);
     }
 }
 
