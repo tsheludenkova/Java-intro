@@ -3,7 +3,7 @@ package generics.cell;
 
 public class Program {
     public static void main(String[] args) {
-        Human <Cellable> oldman = new Human("Ivan", "Ivanovich", 60);
+        Human <ButtonsCell> oldman = new Human("Ivan", "Ivanovich", 60);
         Human <SmartPhone> youngman = new Human("Pavlo", "Pavlovich", 25);
         SmartPhone iphone = new SmartPhone("Iphone 7");
         ButtonsCell nokiaPhone = new ButtonsCell(" Nokia 105");
