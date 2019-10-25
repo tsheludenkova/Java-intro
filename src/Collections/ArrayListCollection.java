@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class ArrayListCollection {
 
-    public static void ShowCollection(ArrayList<String> cells) {
+    public static void showCollection(ArrayList<String> cells) {
         Iterator < String > iter = cells.iterator();
         while (iter.hasNext()) {
             System.out.println(iter.next());
@@ -27,9 +27,9 @@ public class ArrayListCollection {
         cells.remove("iPhone");
         System.out.println(cells.contains("iPhone"));
 
-        ShowCollection(cells);
+        showCollection(cells);
         Collections.sort(cells);
-        ShowCollection(cells);
+        showCollection(cells);
     }
 }
 
