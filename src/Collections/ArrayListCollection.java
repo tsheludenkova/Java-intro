@@ -9,6 +9,7 @@ public class ArrayListCollection {
 
     public static void showCollection(ArrayList<String> cells, boolean sort) {
         if (sort == true) {
+            System.out.println("Sorted collection:");
             Collections.sort(cells);
         }
         Iterator < String > iter = cells.iterator();
